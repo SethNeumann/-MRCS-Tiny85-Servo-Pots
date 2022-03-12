@@ -1,10 +1,4 @@
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+A simple servo controller to replace Mark Schutzer's PIC based design for which the PIC has become unavbailable.
+This controls an SG90 or similar low cost servo. End travel positions are set with 2 pots.  There is a single
+input line which is grounded to reverse the turnout. An onboard push button is provided to easy calibration. In
+addition to the servo output a LED is provided with onboard limiting resistor.
